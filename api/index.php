@@ -10,7 +10,7 @@ spl_autoload_register(function ($classname) {
 $config['displayErrorDetails'] = true;
 $config['addContentLengthHeader'] = false;
 
-$config['db']['host']   = "54.71.106.211";
+$config['db']['host']   = "localhost";
 $config['db']['user']   = "root";
 $config['db']['pass']   = "root";
 $config['db']['dbname'] = "callin";

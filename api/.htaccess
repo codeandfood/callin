@@ -2,7 +2,3 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule . index.php [L]
-
-display_errors = Off
-log_errors = On
-error_log = /var/log/php-errors.log
